@@ -1,38 +1,59 @@
-# 🚀 Angular Advanced Course – Summary & Learnings
+# AngularAdvanced
 
-This repository contains my work and exercises from an advanced **Angular** course on **Udemy**.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
 
-## 📘 Topics covered in the course
+## Development server
 
-- ✅ Practical examples of **design patterns** for solving common development problems  
-- ✅ **Dependency injection** mechanisms and best practices  
-- ✅ Advanced **form handling** with real-world examples  
-- ✅ **Form validation** and dynamic form structure manipulation (plus helpful tricks)  
-- ✅ A large dose of **RxJS** practical knowledge  
-- ✅ **REST API** communication, login, and **authentication**  
-- ✅ Dynamic, multi-level **routing** with **access control**
+To start a local development server, run:
 
----
+```bash
+ng serve
+```
 
-## 🎯 What I learned
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-After completing the course, I am able to:
+## Code scaffolding
 
-- 🧱 Structure Angular applications using proven techniques  
-- 🔧 Fully utilize Angular’s powerful built-in features  
-- 🧹 Use tools and patterns to maintain **clean code** and **high productivity**, even in large-scale apps  
-- ♻️ Build **reusable components, services, and utilities** that streamline development
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
----
+```bash
+ng generate component component-name
+```
 
-## 💡 About the project
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-This repository includes all exercises and mini-projects created while going through the course.  
-It reflects my progress and understanding of advanced Angular concepts, making it a valuable reference for future projects.
+```bash
+ng generate --help
+```
 
----
+## Building
 
-> 📅 Course Platform: Udemy  
-> 🧑‍🏫 Instructor: Eduweb (https://eduweb.pl)
-> 🛠 Tools: Angular, RxJS, REST API
+To build the project run:
 
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
