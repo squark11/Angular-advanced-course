@@ -1,0 +1,47 @@
+# Angular
+# See https://angular.io/guide/build
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.history/
+
+# misc
+/.angular
+/angular.json
+/package-lock.json
+/yarn.lock
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Environment files
+src/environments/environment*.ts
+
+# Compiled JavaScript and TypeScript
+*.js
+*.d.ts
+*.js.map
+*.tsbuildinfo
+
+# System Files
+.DS_Store
+Thumbs.db
