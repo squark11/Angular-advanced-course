@@ -1,29 +1,38 @@
-📚 About this repository
-This repository contains my work and exercises from an advanced Angular course on Udemy.
+# 🚀 Angular Advanced Course – Summary & Learnings
 
-During the course, the instructor covered a wide range of key concepts and practical techniques, including:
+This repository contains my work and exercises from an advanced **Angular** course on **Udemy**.
 
-Design patterns explained through real-world examples of common development problems
+## 📘 Topics covered in the course
 
-Dependency injection mechanisms and best practices
+- ✅ Practical examples of **design patterns** for solving common development problems  
+- ✅ **Dependency injection** mechanisms and best practices  
+- ✅ Advanced **form handling** with real-world examples  
+- ✅ **Form validation** and dynamic form structure manipulation (plus helpful tricks)  
+- ✅ A large dose of **RxJS** practical knowledge  
+- ✅ **REST API** communication, login, and **authentication**  
+- ✅ Dynamic, multi-level **routing** with **access control**
 
-Advanced form handling with numerous hands-on examples
+---
 
-Validation and dynamic form structure manipulation, along with useful tips and tricks
+## 🎯 What I learned
 
-A deep dive into RxJS and reactive programming
+After completing the course, I am able to:
 
-REST API communication, authentication, and login mechanisms
+- 🧱 Structure Angular applications using proven techniques  
+- 🔧 Fully utilize Angular’s powerful built-in features  
+- 🧹 Use tools and patterns to maintain **clean code** and **high productivity**, even in large-scale apps  
+- ♻️ Build **reusable components, services, and utilities** that streamline development
 
-Dynamic, multi-level routing with access control and route guards
+---
 
-✅ What I learned
-After completing the course, I gained:
+## 💡 About the project
 
-Solid understanding of how to structure Angular applications effectively
+This repository includes all exercises and mini-projects created while going through the course.  
+It reflects my progress and understanding of advanced Angular concepts, making it a valuable reference for future projects.
 
-The ability to fully leverage Angular's built-in mechanisms
+---
 
-Familiarity with tools and techniques to keep code organized and maintain high productivity—even in large-scale projects
+> 📅 Course Platform: Udemy  
+> 🧑‍🏫 Instructor: Eduweb (https://eduweb.pl)
+> 🛠 Tools: Angular, RxJS, REST API
 
-Skills to create reusable services and utilities that significantly streamline the development process
