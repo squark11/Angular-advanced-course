@@ -2,7 +2,7 @@
   "name": "ecom-frontend",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "app",
+  "prefix": "ecom",
   "sourceRoot": "apps/ecom-frontend/src",
   "tags": [],
   "targets": {
@@ -27,8 +27,8 @@
         "server": "apps/ecom-frontend/src/main.server.ts",
         "ssr": {
           "entry": "apps/ecom-frontend/src/server.ts"
-        },
-        "outputMode": "server"
+        }
+        
       },
       "configurations": {
         "production": {

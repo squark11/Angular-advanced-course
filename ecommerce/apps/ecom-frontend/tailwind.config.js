@@ -43,6 +43,13 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require('daisyui'),
+
+  
+    // Ensure daisyUI is loaded after Tailwind CSS
+    // This is necessary to avoid conflicts with Tailwind's base styles
+
+    
+    // @ts-ignore
+    require('daisyui')
   ],
 };
